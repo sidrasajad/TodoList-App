@@ -24,10 +24,13 @@ The Local Storage-based To-Do List Application is a simple yet effective web too
 
 ### Screenshot-01
 ![TodoList App Screenshot](Images/Capture1.PNG)
+
 ### Screenshot-02
 ![TodoList App Screenshot](Images/Capture2.PNG)
+
 ### Screenshot-03
 ![TodoList App Screenshot](Images/Capture3.PNG)
+
 ### Screenshot-04
 ![TodoList App Screenshot](Images/Capture4.PNG)
 
