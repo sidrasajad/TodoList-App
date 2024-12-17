@@ -12,7 +12,14 @@ The Quiz App is a dynamic, user-friendly web application built using ES6 JavaScr
 
 ## Screenshots
 
-![Quiz App Screenshot](Image/Capture.PNG)
+### Screenshot-01
+![TodoList App Screenshot](Images/Capture1.PNG)
+### Screenshot-02
+![TodoList App Screenshot](Images/Capture2.PNG)
+### Screenshot-03
+![TodoList App Screenshot](Images/Capture3.PNG)
+### Screenshot-04
+![TodoList App Screenshot](Images/Capture4.PNG)
 
 ## Technologies Used
 
