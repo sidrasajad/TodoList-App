@@ -1,0 +1,268 @@
+body
+{
+    font-family: Arial, sans-serif;
+    background: rgb(230,167,69);
+    background: linear-gradient(90deg, rgba(230,167,69,0.9612219887955182) 10%, rgba(246,138,111,0.9864320728291317) 50%, rgba(200,97,231,0.9248074229691877) 90%);
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding-top: 100px;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+.container
+{
+    background: #fff;
+    padding: 40px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+h1
+{
+    color: blue;
+}
+.input-section
+{
+    margin-bottom: 30px;
+}
+input
+{
+    padding: 12px;
+    width: 70%;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.add-btn
+{
+    padding: 12px 23px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: yellowgreen;
+}
+.todoLists
+{
+    list-style-type: none;
+    padding: 0px;
+}
+li
+{
+    background-color: rgb(241, 237, 237);
+    border: 1px solid gray;
+    margin: 15px 0;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Add New */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+.edit-btn, .delete-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.delete-btn {
+    background-color: #dc3545;
+}
+
+/* Responsive Styles for Various Screens
+
+/* Mobile Devices - Small Phones (max-width: 320px) */
+@media (max-width: 320px)
+{
+    .container
+    {
+        padding: 8px;
+        width: 90%;
+    }
+    input 
+    {
+        width: 50%;
+        padding: 8px;
+        font-size: 13px;
+    }
+    .add-btn 
+    {
+        padding: 8px 13px;
+        font-size: 13px;
+    }
+    .edit-btn, .delete-btn 
+    {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+    li 
+    {
+        margin: 10px 0;
+        padding: 5px;
+    }
+}
+
+/* Mobile Devices - Phones (max-width: 480px) */
+@media (max-width: 480px)
+{
+    .container 
+    {
+        padding: 12px;
+        width: 90%;
+    }
+    input 
+    {
+        width: 55%;
+        padding: 9px;
+        font-size: 13px;
+    }
+    .add-btn 
+    {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    .edit-btn, .delete-btn 
+    {
+        padding: 7px 12px;
+        font-size: 13px;
+    }
+    li 
+    {
+        margin: 12px 0;
+        padding: 5px;
+    }
+}
+
+/* Tablet Devices (max-width: 768px) */
+@media (max-width: 768px) 
+{
+    .container 
+    {
+        width: 85%;
+        padding: 15px;
+    }
+    input 
+    {
+        width: 60%;
+        padding: 10px;
+        font-size: 14px;
+    }
+    .add-btn {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    .edit-btn, .delete-btn 
+    {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+/* Laptop Devices (max-width: 1024px) */
+@media (max-width: 1024px)
+{
+    .container 
+    {
+        width: 80%;
+        padding: 25px;
+    }
+    input 
+    {
+        width: 60%;
+        padding: 11px;
+        font-size: 15px;
+    }
+    .add-btn 
+    {
+        padding: 13px 25px;
+        font-size: 15px;
+    }
+    .edit-btn, .delete-btn 
+    {
+        padding: 10px 18px;
+        font-size: 15px;
+    }
+    li {
+        margin: 15px 0;
+        padding: 5px;
+    }
+}
+
+/* Large Screens - Desktops (min-width: 1025px) */
+@media (min-width: 1025px) {
+    body {
+        padding-top: 100px;
+    }
+    .container
+    {
+        width: 50%;
+        max-width: 600px;
+    }
+    input 
+    {
+        width: 65%;
+        font-size: 16px;
+    }
+    .add-btn 
+    {
+        padding: 14px 30px;
+        font-size: 16px;
+    }
+    .edit-btn, .delete-btn 
+    {
+        padding: 11px 19px;
+        font-size: 16px;
+    }
+}
+
+/* Extra-Large Screens (min-width: 1440px) */
+@media (min-width: 1440px) 
+{
+    .container 
+    {
+        width: 40%;
+        max-width: 800px;
+    }
+    input 
+    {
+        width: 80%;
+        font-size: 18px;
+    }
+    .add-btn 
+    {
+        padding: 18px 35px;
+        font-size: 18px;
+    }
+    .edit-btn, .delete-btn 
+    {
+        padding: 14px 22px;
+        font-size: 18px;
+    }
+    li 
+    {
+        margin: 20px 0;
+        padding: 10px;
+    }
+}  
